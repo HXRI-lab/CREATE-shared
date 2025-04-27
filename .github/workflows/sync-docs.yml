@@ -28,15 +28,17 @@ jobs:
 
             - name: Sync documentation folder to each repo
               run: |
-                  for repo in $REPOS; do
-                    echo "Processing $repo..."
-                    git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/erifyc1/$repo.git
-                    rm -rf $repo/documentation    # 🧹 Remove old documentation folder
-                    mkdir -p $repo/documentation   # 🛠 Make new documentation folder
-                    cp -r documentation/. $repo/documentation/   # 🚀 Copy updated docs
-                    cd $repo
-                    git add documentation/
-                    git commit -m "Update documentation [auto-sync]" || echo "No changes to commit"
-                    git push
-                    cd ..
-                  done
+                  while read repo; do
+                    if [ -n "$repo" ]; then   # Skip empty lines
+                      echo "Processing $repo..."
+                      git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/your-org/$repo.git
+                      rm -rf $repo/documentation
+                      mkdir -p $repo/documentation
+                      cp -r documentation/. $repo/documentation/
+                      cd $repo
+                      git add documentation/
+                      git commit -m "Update documentation [auto-sync]" || echo "No changes to commit"
+                      git push
+                      cd ..
+                    fi
+                  done < repos.txt
