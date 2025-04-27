@@ -1,0 +1,42 @@
+name: Sync Shared Docs
+
+on:
+    push:
+        paths:
+            - 'documentation/**' # Trigger if anything inside documentation/ changes
+        branches:
+            - main
+
+jobs:
+    sync:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout shared-docs
+              uses: actions/checkout@v4
+
+            - name: Set up Git
+              run: |
+                  git config --global user.name "github-actions[bot]"
+                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+            - name: Read repos list
+              id: repos
+              run: |
+                  REPOS=$(cat repos.txt)
+                  echo "REPOS=$REPOS" >> $GITHUB_ENV
+
+            - name: Sync documentation folder to each repo
+              run: |
+                  for repo in $REPOS; do
+                    echo "Processing $repo..."
+                    git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/erifyc1/$repo.git
+                    rm -rf $repo/documentation    # 🧹 Remove old documentation folder
+                    mkdir -p $repo/documentation   # 🛠 Make new documentation folder
+                    cp -r documentation/. $repo/documentation/   # 🚀 Copy updated docs
+                    cd $repo
+                    git add documentation/
+                    git commit -m "Update documentation [auto-sync]" || echo "No changes to commit"
+                    git push
+                    cd ..
+                  done
