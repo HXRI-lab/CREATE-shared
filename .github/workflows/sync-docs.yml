@@ -3,7 +3,7 @@ name: Sync Shared Docs
 on:
     push:
         paths:
-            - 'documentation/**' # Trigger if anything inside documentation/ changes
+            - 'documentation/**' # trigger subdirectory
         branches:
             - main
 

@@ -2,7 +2,7 @@
 
 # Shared Documentation Sync
 
-[![Sync Docs](https://github.com/your-org/shared-docs/actions/workflows/sync-docs.yml/badge.svg)](https://github.com/your-org/shared-docs/actions/workflows/sync-docs.yml)
+[![Sync Docs](https://github.com/erifyc1/shared-docs/actions/workflows/sync-docs.yml/badge.svg)](https://github.com/erifyc1/shared-docs/actions/workflows/sync-docs.yml)
 
 This repository automatically syncs the `documentation/` folder into multiple repositories using GitHub Actions.
 
@@ -16,10 +16,10 @@ This repository automatically syncs the `documentation/` folder into multiple re
 
 ## Repository structure
 
-.
-├── .github/workflows/sync-docs.yml
-├── documentation/
-├── repos.txt
+.  
+├── .github/workflows/sync-docs.yml  
+├── documentation/  
+├── repos.txt  
 └── README.md
 
 ## Setup
@@ -29,9 +29,11 @@ This repository automatically syncs the `documentation/` folder into multiple re
 
 Example `repos.txt`:
 
+```
 repo-one
 repo-two
 repo-three
+```
 
 ## Notes
 
@@ -41,10 +43,10 @@ repo-three
 
 ---
 
-# .gitignore
+## Ignore cloned repos during local testing (.gitignore)
 
-# Ignore cloned repos during local testing
-
+```
 repo-one/
 repo-two/
 repo-three/
+```
