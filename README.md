@@ -2,7 +2,7 @@
 
 # Shared Documentation Sync
 
-[![Sync Docs](https://github.com/erifyc1/shared-docs/actions/workflows/sync-docs.yml/badge.svg)](https://github.com/erifyc1/shared-docs/actions/workflows/sync-docs.yml)
+[![Sync Docs](https://github.com/erifyc1/CREATE-shared/actions/workflows/sync-docs.yml/badge.svg)](https://github.com/erifyc1/CREATE-shared/actions/workflows/sync-docs.yml)
 
 This repository automatically syncs the `documentation/` folder into multiple repositories using GitHub Actions.
 
