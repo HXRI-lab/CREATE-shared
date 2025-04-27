@@ -12,24 +12,24 @@ Last Updated: `4/27/2025`
 3. Building
 4. Running
 
-#### [**II. App Overview**](docs/app-overview)
+#### [**II. App Overview**](docs/app-overview.md)
 
 1. App descriptions
 2. Development status
 
-#### [**III. Packages**](docs/packages)
+#### [**III. Packages**](docs/packages.md)
 
 1. Unity features
 2. Packages
 3. Asset store
 
-#### [**IV. Asset Reference**](docs/asset-reference)
+#### [**IV. Asset Reference**](docs/asset-reference.md)
 
 1. Scenes
 2. Prefabs
 3. Scripts
 
-#### [**V. Future Directions**](docs/future-directions)
+#### [**V. Future Directions**](docs/future-directions.md)
 
 1. Bugs
 2. Planned features
@@ -39,7 +39,7 @@ Last Updated: `4/27/2025`
 1. Key Design Decisions
 2. Lessons Learned
 
-#### [**VII. Development Timeline**](docs/development-timeline)
+#### [**VII. Development Timeline**](docs/development-timeline.md)
 
 1. Developers
 2. History
