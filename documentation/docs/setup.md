@@ -1,6 +1,6 @@
-## Setup
+# Setup
 
-#### Environment Setup
+## Environment Setup
 
 1. Install [Unity Hub](https://unity.com/unity-hub) and current editor version (2022.3.10f1)
 2. Install [Visual Studio](https://visualstudio.microsoft.com/vs/unity-tools/) and make sure to add C#/Unity dev tools
@@ -9,13 +9,13 @@
 4. In Unity Hub, choose `Add -> Add project from disk`
 5. Make sure the Unity Editor version is correct before launching
 
-#### Headset Setup
+## Headset Setup
 
 1. If headset is new, follow Meta's setup guidelines
 2. Once paired and connected to a phone, enable **Developer Mode** in the headset's settings.
     - If this option is not available, your account may need additional steps to be allowed to use developer mode. This might include accepting terms, adding a payment method, confirming a phone number, etc.
 
-#### Building the App
+## Building the App
 
 1. In the **Unity Editor**, go to `File -> Build Settings`
 2. In **Build Settings**, ensure all wanted scenes are included in the build. (Index 0 is the entrypoint scene)
@@ -44,7 +44,7 @@
     - If the option fails due to a file/directory conflict, it means you need to choose a place for the build to go before it's uploaded to the headset. Choose **Build** at the bottom and specify a folder somewhere **outside the project repo** for the builds to be sent. Then, patch to the headset.
     - If the option to **Patch** is not available, follow the steps described in the previous bullet point.
 
-#### Running the App
+## Running the App
 
 Note: These steps are likely to change due to constant UI updates. Custom apps do not show up in the normal app list, likely due to security reasons.
 

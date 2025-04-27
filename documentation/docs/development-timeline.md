@@ -1,6 +1,6 @@
-## Development Timeline
+# Development Timeline
 
-### Developers
+## Developers
 
 | Name           | Github                                                              | Start date | End date |
 | -------------- | ------------------------------------------------------------------- | ---------- | -------- |
@@ -10,22 +10,22 @@
 | Emre Eraslan   | [vo-dh](https://github.com/vo-dh)                                   | Aug 2023   | Present  |
 | Sai Hariharan  | [SaiMeenakshi-Hariharan](https://github.com/SaiMeenakshi-Hariharan) | Aug 2024   | Present  |
 
-### History
+## History
 
-#### Fall 2022
+### Fall 2022
 
 -   preliminary research into VR app preferences
 -   Equipment and app purchases
 -   VR headset and PC setup
     ![lab setup](https://i.imgur.com/NGdRJcm.jpeg)
 
-#### Spring 2023
+### Spring 2023
 
 -   Preliminary setup and testing
 -   barebones gabbable objects ([demo](https://www.youtube.com/watch?v=VuEmuVKoQfA))
 -   basic networking/multiplayer ([demo](https://www.youtube.com/watch?v=xRUicDUixMg))
 
-#### Fall 2023
+### Fall 2023
 
 -   lobby and game selector ([demo](https://www.youtube.com/watch?v=xvRinayI1II))
     ![nov23 game select setup](https://i.imgur.com/u2AaMN2.png)
@@ -37,7 +37,7 @@
     ![nov23 park2](https://i.imgur.com/8RysApt.jpeg)
     ![nov23 park3](https://i.imgur.com/8RaeVtv.jpeg)
 
-#### Spring 2024
+### Spring 2024
 
 -   park rowboat paddles ([demo](https://www.youtube.com/watch?v=KGy23-pkG9U))
     ![jan24 paddles](https://i.imgur.com/l5NbECR.png)
@@ -50,13 +50,13 @@
 -   add poke interactors to fingers, paving the way for non-UI selectors
 -   added adjustable standing desk
 
-#### Fall 2024
+### Fall 2024
 
 -   card game adjustments
 -   quality of life changes
 -   new dev onboarding
 
-#### Spring 2025
+### Spring 2025
 
 -   environment revamp to homey theme
     ![new theme](https://i.imgur.com/zi1SmA9.png)

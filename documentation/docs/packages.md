@@ -1,15 +1,15 @@
-## Packages
+# Packages
 
-This is not an exhaustive list, as not all packages show in the package manager.
+This is not an exhaustive list, as not all packages show in the package manager. Some packages and models are imported manually, and are thus difficult to trace.
 
-#### Features
+## Features
 
 -   Engineering (`unity.feature.engineering`)
     -   Various tools for development environment
 -   VR (`unity.feature.vr`)
     -   Various tools for VR development
 
-#### Packages
+## Packages
 
 -   Unity Input System
     -   New-ish input control that allows for better input configuration.
@@ -27,7 +27,7 @@ This is not an exhaustive list, as not all packages show in the package manager.
 -   XR Interaction Toolkit
     -   System for building XR interactions and objects
 
-#### Asset Store
+## Asset Store
 
 -   [Voxel office props](https://assetstore.unity.com/packages/3d/props/voxel-office-props-127772)
     -   Laptop, desktop monitor, glass table
@@ -46,7 +46,7 @@ This is not an exhaustive list, as not all packages show in the package manager.
 -   [Electric scooter](https://assetstore.unity.com/packages/3d/props/exterior/electric-scooter-prop-171335)
     -   Electric scooter available in park
 
-#### Other sources
+## Other sources
 
 -   [Standing Desk](https://sketchfab.com/3d-models/standing-desk-65a7f4b06a5f4954a0d43eb8812dd165)
     -   Adjustable table used in all game scenes

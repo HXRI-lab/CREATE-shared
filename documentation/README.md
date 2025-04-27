@@ -5,41 +5,41 @@ Last Updated: `4/27/2025`
 
 ## Contents
 
-#### [**I. Setup**](docs/setup.md)
+### **i.** [**Setup**](docs/setup.md)
 
-1. Environment
-2. Headset
-3. Building
-4. Running
+1. [Environment](docs/setup.md#environment-setup)
+2. [Headset](docs/setup.md#headset-setup)
+3. [Building](docs/setup.md#building-the-app)
+4. [Running](docs/setup.md#running-the-app)
 
-#### [**II. App Overview**](docs/app-overview.md)
+### **ii.** [**App Overview**](docs/app-overview.md)
 
-1. App descriptions
-2. Development status
+1. [App descriptions](docs/app-overview.md#board-games)
+2. [Development status](docs/app-overview.md#board-games)
 
-#### [**III. Packages**](docs/packages.md)
+### **iii.** [**Packages**](docs/packages.md)
 
-1. Unity features
-2. Packages
-3. Asset store
+1. [Unity features](docs/packages.md#features)
+2. [Packages](docs/packages.md#packages-1)
+3. [Asset store](docs/packages.md#asset-store)
 
-#### [**IV. Asset Reference**](docs/asset-reference.md)
+### **iv.** [**Asset Reference**](docs/asset-reference.md)
 
-1. Scenes
-2. Prefabs
-3. Scripts
+1. [Scenes](docs/asset-reference.md#scenes)
+2. [Prefabs](docs/asset-reference.md#prefabs)
+3. [Scripts](docs/asset-reference.md#scripts)
 
-#### [**V. Future Directions**](docs/future-directions.md)
+### **v.** [**Future Directions**](docs/future-directions.md)
 
-1. Bugs
-2. Planned features
+1. [Bugs](docs/future-directions.md#bugs)
+2. [Planned features](docs/future-directions.md#future-features)
 
-#### [**VI. Key Design Decisions & Lessons Learned**](docs/key-design-decisions.md)
+### **vi.** [**Key Design Decisions & Lessons Learned**](docs/key-design-decisions.md)
 
-1. Key Design Decisions
-2. Lessons Learned
+1. [Design Decisions](docs/key-design-decisions.md#design-decisions)
+2. [Lessons Learned](docs/key-design-decisions.md#lessons-learned)
 
-#### [**VII. Development Timeline**](docs/development-timeline.md)
+### **vii.** [**Development Timeline**](docs/development-timeline.md)
 
-1. Developers
-2. History
+1. [Developers](docs/development-timeline.md#developers)
+2. [History](docs/development-timeline.md#history)
