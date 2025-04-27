@@ -20,12 +20,6 @@ jobs:
                   git config --global user.name "github-actions[bot]"
                   git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-            - name: Read repos list
-              id: repos
-              run: |
-                  REPOS=$(cat repos.txt)
-                  echo "REPOS=$REPOS" >> $GITHUB_ENV
-
             - name: Sync documentation folder to each repo
               run: |
                   while read repo; do
