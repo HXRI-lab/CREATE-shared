@@ -25,7 +25,7 @@ jobs:
                   while read repo; do
                     if [ -n "$repo" ]; then   # Skip empty lines
                       echo "Processing $repo..."
-                      git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/your-org/$repo.git
+                      git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/erifyc1/$repo.git
                       rm -rf $repo/documentation
                       mkdir -p $repo/documentation
                       cp -r documentation/. $repo/documentation/
