@@ -1,5 +1,3 @@
-# README.md
-
 # Shared Documentation Sync
 
 [![Sync Docs](https://github.com/erifyc1/CREATE-shared/actions/workflows/sync-docs.yml/badge.svg)](https://github.com/erifyc1/CREATE-shared/actions/workflows/sync-docs.yml)
