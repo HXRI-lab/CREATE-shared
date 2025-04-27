@@ -14,7 +14,7 @@ Some problems we need to fix and new features on the roadmap.
 ## Future features
 
 -   **[All]** Audio/music control menu
--   **[All]** Use [Meta Avatars](https://www.meta.com/avatars/) in the projects. This has proved challenging to work, as avatars are generated according to a script at runtime. Nontrivial to get working with Photon PUN.
+-   **[All]** ~~Use [Meta Avatars](https://www.meta.com/avatars/) in the projects. This has proved challenging to work, as avatars are generated according to a script at runtime. Nontrivial to get working with Photon PUN.~~ These seem to be broken currently. Check back later.
 -   **[Park]** Add basketball
 -   **[Park]** Adapt boat/scooter physics to a golf cart
 -   **[Arcade]** Finalize environment
