@@ -66,6 +66,6 @@
     ![card holder new](https://i.imgur.com/J8ve9LO.png)
     ![side table selector](https://i.imgur.com/it1vxA3.png)
     ![fixed deckpoints](https://i.imgur.com/00vnPwX.png)
--   park scooter and boat upgrades ([demo](https://www.youtube.com/watch?v=-gRF12_rl3w))
+-   park scooter and boat upgrades ([demo](https://www.youtube.com/watch?v=-gRF12_rl3w))  
     ![scooter collision changes](https://i.imgur.com/kHv6ygb.png)
 -   connect 4 game ([demo](https://www.youtube.com/watch?v=oLKtZW_aLss))
