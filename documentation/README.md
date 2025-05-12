@@ -1,4 +1,4 @@
-# CREATE VR App Documentation
+# CREATE VR Apps Documentation
 
 Authored by: Jacob Stolker ([erifyc1](https://github.com/erifyc1))  
 Last Updated: `5/12/2025`
